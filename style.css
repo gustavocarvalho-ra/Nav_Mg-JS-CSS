@@ -63,3 +63,15 @@ body {
   transition: 0.5s;
   color: var(--clr);
 }
+
+.navigation ul li:hover a .icon {
+  transform: translateY(-35px);
+}
+
+.navigation ul li a .text {
+  position: absolute;
+  color: var(--clr);
+  font-weight: 400;
+  font-size: 0.75em;
+  letter-spacing: 0.05em;
+}
